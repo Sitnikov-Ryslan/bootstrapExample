@@ -1,0 +1,53 @@
+// main: ../style.less
+
+.intro {
+    width: 100%;
+    height: auto;
+    background: url(../img/intro.jpg) no-repeat center center;
+    background-size: cover;
+
+    & .container {
+        padding: 180px 0;
+        text-align: center;
+        color: @white;
+    }
+}
+
+.intro__title {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.intro__text {
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 105px;
+}
+
+.intro__btn {
+    width: 222px;
+    height: 70px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: @white;
+    background: transparent;
+    border: 0;
+    text-transform: uppercase;
+    transition: 0.1s;
+
+    &_empty {
+        border: 2px solid @white;
+        margin-right: 25px;
+    }
+
+    &_full {
+        background: @mint;
+    }
+
+    &:hover {
+        background: darken(@mint, 5%);
+        border: 2px solid @white;
+    }
+}
+

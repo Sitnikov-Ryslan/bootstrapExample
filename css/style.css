@@ -102,6 +102,86 @@ h6 {
   background-size: cover;
   margin-right: 0;
 }
+.intro {
+  width: 100%;
+  height: auto;
+  background: url(../img/intro.jpg) no-repeat center center;
+  background-size: cover;
+}
+.intro .container {
+  padding: 180px 0;
+  text-align: center;
+  color: #fff;
+}
+.intro__title {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+.intro__text {
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 105px;
+}
+.intro__btn {
+  width: 222px;
+  height: 70px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  background: transparent;
+  border: 0;
+  text-transform: uppercase;
+  transition: 0.1s;
+}
+.intro__btn_empty {
+  border: 2px solid #fff;
+  margin-right: 25px;
+}
+.intro__btn_full {
+  background: #00897b;
+}
+.intro__btn:hover {
+  background: #007064;
+  border: 2px solid #fff;
+}
+.about {
+  background: #fff;
+  color: #212121;
+  text-align: center;
+  padding: 125px 0;
+}
+.about .container {
+  padding: 0;
+}
+.about__title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.about__text {
+  margin-bottom: 125px;
+}
+.about__item {
+  padding-top: 95px;
+}
+.about__item:first-child {
+  background: url(../img/internet.svg) no-repeat center top;
+}
+.about__item:nth-child(2) {
+  background: url(../img/transfer.svg) no-repeat center top;
+}
+.about__item:last-child {
+  background: url(../img/head.svg) no-repeat center top;
+}
+.about__subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.about__content {
+  margin: 0;
+}
 .hidden {
   display: none;
 }

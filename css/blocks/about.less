@@ -1,0 +1,48 @@
+// main: ../style.less
+
+.about {
+    background: @white;
+    color: @black;
+    text-align: center;
+    padding: 125px 0;
+
+    & .container {
+        padding: 0;
+    }
+}
+
+.about__title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.about__text {
+    margin-bottom: 125px;
+}
+
+.about__item {
+    padding-top: 95px;
+
+    &:first-child {
+        background: url(../img/internet.svg) no-repeat center top;
+    }
+
+    &:nth-child(2) {
+        background: url(../img/transfer.svg) no-repeat center top;
+    }
+
+    &:last-child {
+        background: url(../img/head.svg) no-repeat center top;
+    }
+}
+
+.about__subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.about__content {
+    margin: 0;
+}
