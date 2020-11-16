@@ -1,0 +1,71 @@
+// main: ../style.less
+
+.portfolio {
+    background: @white;
+    color: @black;
+    text-align: center;
+    padding: 130px 0;
+
+    & .container {
+        padding: 0;
+    }
+}
+
+.portfolio__title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.portfolio__text {
+    margin-bottom: 110px;
+}
+
+.portfolio__btn {
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: @black;
+    background: transparent;
+    text-transform: uppercase;
+    transition: 0.1s;
+    background: transparent;
+    border: 2px solid @mint;
+    margin-right: 15px;
+    padding: 0 30px;
+    cursor: pointer;
+
+    &:hover,
+    &.active {
+        background: @mint;
+        color: @white;
+    }
+}
+
+.portfolio__filter {
+    padding: 120px 0;
+
+    & div:hover img {
+        filter: brightness(50%);
+    }
+
+    & div:hover .portfolio__content {
+        display: block;
+        width: 100%;
+        color: @white;
+        position: absolute;
+        top: 40%;
+        left: 0;
+        text-align: center;
+    }
+
+    & img {
+        margin-bottom: 30px;
+        transition: all 0.1s;
+    }
+}
+
+.portfolio__content {
+    display: none;
+}

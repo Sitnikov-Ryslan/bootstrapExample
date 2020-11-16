@@ -129,21 +129,17 @@ h6 {
   font-size: 20px;
   font-weight: 600;
   color: #fff;
-  background: transparent;
   border: 0;
   text-transform: uppercase;
   transition: 0.1s;
-}
-.intro__btn_empty {
+  background: transparent;
   border: 2px solid #fff;
   margin-right: 25px;
-}
-.intro__btn_full {
-  background: #00897b;
+  cursor: pointer;
 }
 .intro__btn:hover {
-  background: #007064;
-  border: 2px solid #fff;
+  background: #00897b;
+  border: 0;
 }
 .about {
   background: #fff;
@@ -181,6 +177,115 @@ h6 {
 }
 .about__content {
   margin: 0;
+}
+.services {
+  background: #e4fdf9;
+  color: #212121;
+  text-align: center;
+  padding: 170px 0 90px;
+}
+.services .container {
+  padding: 0;
+}
+.services__title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.services__text {
+  margin-bottom: 110px;
+}
+.services__item {
+  padding: 150px 40px 50px;
+  background: url(../img/phone-icon.svg) no-repeat center 50px, #fff;
+  transition: all 0.1s;
+  margin-bottom: 30px;
+}
+.services__item:hover {
+  background: url(../img/phone-icon-hover.svg) no-repeat center 50px, #00897b;
+  color: #fff;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.35);
+}
+.services__item:hover .services__btn {
+  color: #fff;
+  border: 1px solid #fff;
+}
+.services__subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.services__content {
+  margin: 0 0 45px 0;
+}
+.services__btn {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  text-transform: uppercase;
+  padding: 15px 10px;
+  border: 1px solid #212121;
+  background: transparent;
+  cursor: pointer;
+}
+.portfolio {
+  background: #fff;
+  color: #212121;
+  text-align: center;
+  padding: 130px 0;
+}
+.portfolio .container {
+  padding: 0;
+}
+.portfolio__title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.portfolio__text {
+  margin-bottom: 110px;
+}
+.portfolio__btn {
+  height: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #212121;
+  text-transform: uppercase;
+  transition: 0.1s;
+  background: transparent;
+  border: 2px solid #00897b;
+  margin-right: 15px;
+  padding: 0 30px;
+  cursor: pointer;
+}
+.portfolio__btn:hover,
+.portfolio__btn.active {
+  background: #00897b;
+  color: #fff;
+}
+.portfolio__filter {
+  padding: 120px 0;
+}
+.portfolio__filter div:hover img {
+  filter: brightness(50%);
+}
+.portfolio__filter div:hover .portfolio__content {
+  display: block;
+  width: 100%;
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  text-align: center;
+}
+.portfolio__filter img {
+  margin-bottom: 30px;
+  transition: all 0.1s;
+}
+.portfolio__content {
+  display: none;
 }
 .hidden {
   display: none;

@@ -35,19 +35,14 @@
     border: 0;
     text-transform: uppercase;
     transition: 0.1s;
-
-    &_empty {
-        border: 2px solid @white;
-        margin-right: 25px;
-    }
-
-    &_full {
-        background: @mint;
-    }
+    background: transparent;
+    border: 2px solid @white;
+    margin-right: 25px;
+    cursor: pointer;
 
     &:hover {
-        background: darken(@mint, 5%);
-        border: 2px solid @white;
+        background: @mint;
+        border: 0;
     }
 }
 

@@ -1,0 +1,62 @@
+// main: ../style.less
+
+.services {
+    background: #e4fdf9;
+    color: @black;
+    text-align: center;
+    padding: 170px 0 90px;
+
+    & .container {
+        padding: 0;
+    }
+}
+
+.services__title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.services__text {
+    margin-bottom: 110px;
+}
+
+.services__item {
+    padding: 150px 40px 50px;
+    background: url(../img/phone-icon.svg) no-repeat center 50px, @white;
+    transition: all 0.1s;
+    margin-bottom: 30px;
+
+    &:hover {
+        background: url(../img/phone-icon-hover.svg) no-repeat center 50px, @mint;
+        color: @white;
+        box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.35);
+
+        & .services__btn {
+            color: @white;
+            border: 1px solid @white;
+        }
+    }
+}
+
+.services__subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.services__content {
+    margin: 0 0 45px 0;
+}
+
+.services__btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    text-transform: uppercase;
+    padding: 15px 10px;
+    border: 1px solid @black;
+    background: transparent;
+    cursor: pointer;
+}
