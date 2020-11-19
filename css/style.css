@@ -360,6 +360,97 @@ h6 {
   color: #fff;
   border: 1px solid #00897b;
 }
+.team {
+  background: #fff;
+  color: #212121;
+  text-align: center;
+  padding: 120px 0;
+}
+.team .container {
+  padding: 0;
+}
+.team__title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.team__text {
+  margin-bottom: 120px;
+}
+.team__img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 35px;
+}
+.team__name {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  margin-bottom: 15px;
+}
+.team__content {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+.team__social {
+  width: 100%;
+}
+.team__social-icon {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: #f0f1f1;
+  border-radius: 5px;
+  margin-right: 25px;
+  transition: 0.1s;
+}
+.team__social-icon:first-child {
+  background: url(../img/facebook.svg) no-repeat center center, #f0f1f1;
+}
+.team__social-icon:first-child:hover {
+  background: url(../img/facebook-hover.svg) no-repeat center center, #3949ab;
+}
+.team__social-icon:nth-child(2) {
+  background: url(../img/twitter.svg) no-repeat center center, #f0f1f1;
+}
+.team__social-icon:nth-child(2):hover {
+  background: url(../img/twitter-hover.svg) no-repeat center center, #3949ab;
+}
+.team__social-icon:nth-child(3) {
+  background: url(../img/chat.svg) no-repeat center center, #f0f1f1;
+}
+.team__social-icon:nth-child(3):hover {
+  background: url(../img/chat-hover.svg) no-repeat center center, #3949ab;
+}
+.team__social-icon:last-child {
+  background: url(../img/dribbble.svg) no-repeat center center, #f0f1f1;
+}
+.team__social-icon:last-child:hover {
+  background: url(../img/dribbble-hover.svg) no-repeat center center, #3949ab;
+}
+.slick-list {
+  margin-bottom: 125px;
+}
+.slick-dots {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.slick-dots button {
+  background: #00897b;
+  border: 0;
+  border-radius: 50%;
+  font-size: 0;
+  height: 15px;
+  width: 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+.slick-dots .slick-active button {
+  background: #3949ab;
+}
 .hidden {
   display: none;
 }

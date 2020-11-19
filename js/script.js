@@ -1,3 +1,5 @@
+//  Portfolio
+
 $(document).ready(function() {
     $('.portfolio__btn[filter]').click(function() {
         if($(this).attr('filter') == 'all') {
@@ -17,3 +19,13 @@ $(document).ready(function() {
         }
     })
 });
+
+// Team slider
+
+$('.slider').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    arrows: false,
+    dots: true
+  });
