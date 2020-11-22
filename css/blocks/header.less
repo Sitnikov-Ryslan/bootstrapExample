@@ -2,7 +2,7 @@
 
 .header {
     width: 100%;
-    height: 120px;
+    min-height: 120px;
     background: @white;
 }
 
@@ -10,6 +10,12 @@
     font-weight: 700;
     font-size: 25px;
     line-height: 22px;
+}
+
+.header__nav {
+    @media @mobile {
+        flex-direction: column;
+    }
 }
 
 .header__nav-item {
